@@ -1,0 +1,10 @@
+﻿@model Tempo.BLL.Models.main
+@{
+    ViewData["Title"] = "Temperatura";
+}
+
+<h2>Temperatura de São Paulo</h2>
+
+    <p>Temperatura Atual: @Model.tempo.tempAtual</p>
+    <p>Temperatura Minima: @Model.tempo.tempMin</p>
+    <p>Temperatura Maxima: @Model.tempo.tempMax</p>
